@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>Comment Box</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="form-wrap">
+            <form id="form" >
+                <label for="name">First name:</label><br>
+                <input class="rounded-input" type="text" id="name" name="name" placeholder="Your name" required><br>
+                <label for="email">Email</label><br>
+                <input class="rounded-input" type="email" id="email" name="email" placeholder="Your email" required><br><br>
+                <label for="comment" >Comment</label><br>
+                <input id="comment" placeholder="Write your comment"></textarea>
+                <span id="count">0</span><i>/140</i>
+                <input class="rounded-input" onclick="add()" type="submit" value="Submit" id="sub-btn">
+                <br>
+                <span id="valid">valid input</span>
+              </form> 
+        </div>
+
+            <div id="results">
+                <div id="lists">
+                    <h3>Comments:</h3>
+                </div>
+            </div>
+    </div>
+
+
+<script src="index.js"></script>    
+</body>
+</html>

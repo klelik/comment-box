@@ -1,0 +1,85 @@
+body{
+    font-family: 'Nerko One', cursive;
+}
+.valid{
+    color: green;
+
+}
+
+.invalid{
+    color: red;
+}
+
+.form-wrap{
+    border-radius: 10px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.7);
+}
+
+label{
+    margin-left: 10px;
+}
+
+input {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  
+}
+.rounded-input {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:20px;
+  }
+  .rounded-input:hover {
+    border: 1px solid #aaa;
+  }
+
+  #results{
+    margin-top: 20px;
+  }
+
+  #sub-btn{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #2fe262;
+    color: #2fe262;
+    background: 0 0;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 42px;
+  }
+
+  #sub-btn:hover{
+    background-color: #2fe262;
+    color: #fff;
+}
+
+.valid-btn{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid red;
+    color: red;
+    background: 0 0;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 42px;
+}
+.valid-btn:hover{
+    background-color: #2fe262;
+    color: #fff;
+}
